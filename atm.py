@@ -45,3 +45,5 @@ print(atm.check_balance())
 atm.withdraw(200) 
 
 print(atm.check_balance()) 
+
+print(atm.print_transactions()) 

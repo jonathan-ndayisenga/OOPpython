@@ -30,7 +30,7 @@ class ATM:
             print("No transactions.")
         else:
             for transaction in self.transactions:
-                print(transaction)
+                print(transaction) 
 
     def verify_pin(self, entered_pin):
         return self.pin == entered_pin
@@ -43,6 +43,12 @@ atm.deposit(1000)
 print(atm.check_balance()) 
 
 atm.withdraw(200) 
+
+print(atm.check_balance()) 
+
+print(atm.print_transactions()) 
+
+atm.deposit(100000000)
 
 print(atm.check_balance()) 
 
